@@ -72,6 +72,13 @@ nav {
     color: rgb(37, 59, 71);
     margin-bottom: 20px;
 }
+.cross{
+    display: none;
+}
+
+.burger{
+    display: none;
+}
 
 .content2,
 .content3 {
@@ -264,5 +271,43 @@ nav {
     height: 24px;
     background-color: #E5EDEF;
     margin-inline: 12px;
+
+}
+
+@media only screen and (max-width:1140px){
+    .navlist{
+
+        flex-direction: column;
+    }
+
+    .v-class-resp {
+        display: none;
+
+} 
+.burger{
+    display: block;
+}
+.footer{
+    flex-direction: column;
+}
+.your-earning{
+    width: 50vw;
+}
+.learn-more{
+    width: 80vw;
+
+}
+.main-part{
+    width: 100vw;
+}
+nav{
+    width: 100vw;
+}
+.content1{
+    font-size: 30px;
+}
+.lock{
+    width: 100vw;
+}
 
 }
