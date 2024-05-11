@@ -109,7 +109,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("graph.svg");
+    background-image: url("images/graph.svg");
     background-position: right;
     height: 35vh;
     background-repeat: no-repeat;
