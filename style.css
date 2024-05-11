@@ -1,0 +1,268 @@
+.icon {
+    color: rgb(84, 99, 109);
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(242, 246, 248)
+}
+
+
+.navlist {
+    display: flex;
+}
+
+.navlist li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlist li a {
+    text-decoration: none;
+    padding: 13px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #6A7B83;
+}
+
+.rightNav button {
+    border-radius: 15px;
+    outline: #fff;
+    border: white;
+    color: #8B9399;
+    background-color: rgb(248, 251, 252);
+    font-size: 20px;
+    padding: 15px;
+
+}
+
+.line {
+    width: 73px;
+    background-color: black;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+.main-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 246, 248);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content1 {
+    margin-top: 35px;
+    font-size: 50px;
+    color: rgb(37, 59, 71);
+    margin-bottom: 20px;
+}
+
+.content2,
+.content3 {
+    color: rgb(108, 124, 132);
+}
+
+.lock {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 246, 248);
+
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    background-color: rgb(242, 246, 248);
+    padding-top: 40px;
+
+
+}
+
+.your-earning {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("graph.svg");
+    background-position: right;
+    height: 35vh;
+    background-repeat: no-repeat;
+    width: 10vw;
+    border-radius: 30%;
+    padding: 40px;
+
+
+}
+
+.your-earning-text {
+    margin-inline-start: 25px;
+    color: rgb(162, 173, 179);
+    background-color: rgb(239, 242, 244);
+    display: flex;
+    justify-content: left;
+
+    font-size: 14px;
+    border-radius: 14px;
+    width: 125px;
+
+}
+
+.your-earning-amount {
+    color: rgb(55, 88, 103);
+    font-size: 45px;
+}
+
+.your-earning-payout {
+    color: #A0AAAF;
+}
+
+.your-earning-points {
+    color: #3D525E;
+}
+
+
+.connected-sources {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFBFC;
+    border-radius: 20%;
+
+}
+
+.connected-sources-text {
+    margin-block: 40px 25px;
+    color: #2D4250;
+    font-size: 24px;
+
+}
+
+.switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+
+
+.small-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.large-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+
+
+}
+
+.small-icons img {
+    width: 45px;
+    height: 45px;
+}
+
+.large-icons img {
+    width: 70px;
+    height: 70px;
+}
+
+.learn-more {
+    background-color: #FDFDFE;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 18vw;
+    
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    color: #ACB8BD;
+    font-size: 12px;
+    height: 60px;
+    justify-content:flex-end;
+    border-radius: 10%;
+   
+
+}
+.text1{
+    background-color: #E5EDEF;
+    position: absolute;
+    top: 35px;
+    right:5px;
+    z-index: 4;
+}
+
+.text2{
+    background-color: #EEF2F4;
+    position: absolute;
+    top: 70px;
+    right:105px;
+    z-index: 3;
+}
+.text3{
+    background-color: #F6F8FA;
+    position: absolute;
+    top: 105px;
+    left: 15px;
+    z-index: 2;
+    
+}
+.closing-text{
+    display: flex;
+    align-items: center;
+    color:#486270;
+    padding: 0px 25px;
+    width: 250px;
+
+
+    position: absolute;
+    
+    top: 175px;
+    left: 0px;
+}
+
+.refresh img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.rightarrow {
+    width: 24px;
+    height: 24px;
+    background-color: #E5EDEF;
+    margin-inline: 12px;
+
+}
