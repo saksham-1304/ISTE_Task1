@@ -63,8 +63,8 @@ nav {
 }
 
 .content1 {
-    margin-top: 35px;
-    font-size: 50px;
+    margin-top: 30px;
+    font-size: 75px;
     color: rgb(37, 59, 71);
     margin-bottom: 20px;
 }
@@ -347,5 +347,8 @@ nav {
     .closing-text {
         width: 75vw;
     }
+
+    .content2, .content3 {
+        font-size: 7.5px;}
 
 }
