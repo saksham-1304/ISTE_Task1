@@ -266,8 +266,9 @@ nav {
     left: 0px;
 }
 
-.refresh{
-    padding: 12px 0px 0px 18px;;
+.refresh {
+    padding: 12px 0px 0px 18px;
+    ;
 
 }
 
@@ -348,7 +349,9 @@ nav {
         width: 75vw;
     }
 
-    .content2, .content3 {
-        font-size: 7.5px;}
+    .content2,
+    .content3 {
+        font-size: 7.5px;
+    }
 
 }
