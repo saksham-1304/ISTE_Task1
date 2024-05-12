@@ -96,7 +96,7 @@ nav {
 .footer {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     width: 100vw;
     background-color: rgb(242, 246, 248);
     padding-top: 40px;
@@ -115,6 +115,7 @@ nav {
     width: 10vw;
     border-radius: 30%;
     padding: 40px;
+    margin-inline: 10px;
 
 
 }
@@ -153,6 +154,7 @@ nav {
     align-items: center;
     background-color: #FAFBFC;
     border-radius: 20%;
+    margin-inline: 10px;
 
 }
 
@@ -229,13 +231,14 @@ nav {
     top: 35px;
     right: 5px;
     z-index: 4;
+    padding: 5px;
 }
 
 .text2 {
     background-color: #EEF2F4;
     position: absolute;
     top: 70px;
-    right: 105px;
+    right: 40px;
     z-index: 3;
 }
 
@@ -243,7 +246,7 @@ nav {
     background-color: #F6F8FA;
     position: absolute;
     top: 105px;
-    left: 15px;
+    left: 50px;
     z-index: 2;
 
 }
@@ -254,6 +257,7 @@ nav {
     color: #486270;
     padding: 0px 25px;
     width: 250px;
+    margin-inline: 10px;
 
 
     position: absolute;
